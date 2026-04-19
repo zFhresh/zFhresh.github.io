@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>zFhresh — Unity developer</title>
+  <meta name="description" content="zFhresh — Unity game developer & Asset Store publisher." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="v-classic no-featured">
+
+  <div class="shell" id="shell"></div>
+
+  <div class="tweaks-panel" id="tweaks-panel">
+    <h4>Tweaks</h4>
+    <label>Layout</label>
+    <div class="seg">
+      <button data-layout="classic" class="on">classic</button>
+      <button data-layout="grid">grid</button>
+      <button data-layout="zine">zine</button>
+    </div>
+    <label>Accent hue (<span id="hue-label">236</span>)</label>
+    <input type="range" id="hue-input" min="180" max="280" step="1" value="236" />
+    <div class="chk">
+      <input type="checkbox" id="featured-check" />
+      <label for="featured-check">Show featured block</label>
+    </div>
+  </div>
+  <button class="tweaks-btn" id="tweaks-btn" title="Tweaks">⚙</button>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
