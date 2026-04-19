@@ -20,8 +20,8 @@
   /* ── Render helpers ───────────────────────────────── */
   function renderHeader() {
     var m = SITE_DATA.meta;
-    var nProj  = SITE_DATA.projects.length;
-    var nAsset = SITE_DATA.assets.length;
+    var nProj  = SITE_DATA.projects.filter(function(p){ return p.kind !== 'asset'; }).length;
+    var nAsset = SITE_DATA.projects.filter(function(p){ return p.kind === 'asset'; }).length;
     return '<header class="hdr">' +
       '<div>' +
         '<div class="hdr-brand">' +
