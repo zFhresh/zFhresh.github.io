@@ -32,17 +32,17 @@
           '</div>' +
         '</div>' +
         '<nav class="hdr-nav">' +
-          '<a href="#home">homepage</a><span class="sep">\xB7</span>' +
-          '<a href="#catalogue">catalogue</a><span class="sep">\xB7</span>' +
-          '<a href="#contact">contact</a>' +
+          '<a href="#home">Homepage</a><span class="sep">\xB7</span>' +
+          '<a href="#catalogue">Catalogue</a><span class="sep">\xB7</span>' +
+          '<a href="#contact">Contact</a>' +
         '</nav>' +
       '</div>' +
       '<div class="hdr-meta">' +
         '<div class="hdr-status"><span class="dot"></span>' + esc(m.status) + '</div>' +
         '<div class="hdr-counts">' +
-          '<span><b>' + nProj + '</b> projects</span>' +
+          '<span><b>' + nProj + '</b> Games</span>' +
           '<span class="dotsep">\xB7</span>' +
-          '<span><b>' + nAsset + '</b> assets</span>' +
+          '<span><b>' + nAsset + '</b> Assets</span>' +
         '</div>' +
       '</div>' +
     '</header>';

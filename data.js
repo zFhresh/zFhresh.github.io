@@ -8,7 +8,7 @@ var SITE_DATA = {
     "lastBuilt": "?? ?? ????"
   },
   "blurb": [
-    "Hi! I'm <strong>zFhresh</strong>. I've been working with <strong>Unity</strong> for over 4 years, bringing my own projects to life while also releasing helpful tools on the <strong>Asset Store</strong>."
+    "Hi! I'm <strong>zFhresh</strong>. I\u2019ve been working with <strong>Unity</strong> for over 4 years, bringing my own projects to life while also releasing helpful tools on the <strong>Asset Store</strong>."
   ],
   "contact": [
     {
