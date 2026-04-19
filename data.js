@@ -13,33 +13,23 @@ var SITE_DATA = {
   "contact": [
     {
       "icon": "\u2709",
-      "label": "hello@zfhresh.dev",
-      "href": "mailto:hello@zfhresh.dev"
+      "label": "dev.zfhresh@gmail.com",
+      "href": "mailto:dev.zfhresh@gmail.com"
     },
     {
       "icon": "",
       "label": "Asset Store",
-      "href": "#"
+      "href": "https://assetstore.unity.com/publishers/95855"
     },
     {
       "icon": "",
       "label": "itch.io",
-      "href": "#"
-    },
-    {
-      "icon": "",
-      "label": "GitHub",
-      "href": "#"
+      "href": "https://zfhresh.itch.io/"
     },
     {
       "icon": "",
       "label": "YouTube",
-      "href": "#"
-    },
-    {
-      "icon": "",
-      "label": "Discord",
-      "href": "#"
+      "href": "https://www.youtube.com/@zfhresh3159"
     }
   ],
   "badges": [
@@ -69,7 +59,7 @@ var SITE_DATA = {
       "icon": "runner",
       "status": "released",
       "featured": true,
-      "url": "",
+      "url": "https://store.steampowered.com/app/3145800/Parkour_Is_White/",
       "image": "assets/ParkourIsWhite.png"
     },
     {
@@ -80,7 +70,7 @@ var SITE_DATA = {
       "icon": "neon",
       "status": "released",
       "featured": false,
-      "url": "",
+      "url": "https://assetstore.unity.com/packages/vfx/shaders/neon-display-274493?srsltid=AfmBOop24tSqNUXNCyFbWB3GtoiviuOmDoXMwMiJ99tMGOt8Taj-E5WV",
       "image": "assets/NeonDisplay.png"
     },
     {
@@ -91,7 +81,7 @@ var SITE_DATA = {
       "icon": "sun",
       "status": "wip",
       "featured": false,
-      "url": "",
+      "url": "https://store.steampowered.com/app/3383210/Click_for_Humanity/",
       "image": "assets/ClickForHumanity.png"
     },
     {
@@ -102,7 +92,7 @@ var SITE_DATA = {
       "icon": "dice",
       "status": "wip",
       "featured": false,
-      "url": "",
+      "url": "https://store.steampowered.com/app/4200200/Roulette_of_the_Void/",
       "image": "assets/RouletteOfTheVoid.png"
     }
   ],

@@ -66,7 +66,7 @@
   function renderContact() {
     var html = '<div class="contact-compact" id="contact"><div class="socials">';
     SITE_DATA.contact.forEach(function (c) {
-      html += '<a href="' + esc(c.href) + '">' +
+      html += '<a href="' + esc(c.href) + '" target="_blank" rel="noopener">' +
         '<span class="ic">' + c.icon + '</span>' + esc(c.label) + '</a>';
     });
     return html + '</div></div>';
